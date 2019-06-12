@@ -68,3 +68,6 @@ plt.xlabel("Level")
 plt.ylabel("Salary")
 plt.show()
 
+#predicted value at 6.5
+e=new1_regressor.predict(poly.transform(6.5))
+print (e)
